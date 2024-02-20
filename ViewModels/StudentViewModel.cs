@@ -64,6 +64,7 @@ namespace MenuProject.ViewModels
         {
             _studentRepo.Delete(studentToDelete);
             Update();
+            StatusBarText = "Diák adat törölve!";
         }
 
         private void Update()
