@@ -70,7 +70,7 @@
          />
         <StatusBar Grid.Row="9" Grid.Column="0">
             <StatusBarItem>
-                <TextBlock Text=""/>
+                <TextBlock Text="Próba szöveg"/>
             </StatusBarItem>
         </StatusBar>
     </Grid>
