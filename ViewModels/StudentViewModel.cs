@@ -40,6 +40,7 @@ namespace MenuProject.ViewModels
             _selectedStudent = new Student();
             SelectedEducationLevel = _educationLevelsRepo.FindFirst();
             Update();
+            StatusBarText = "Diák adatok betöltve...";
         }
 
         [RelayCommand]

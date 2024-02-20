@@ -70,7 +70,7 @@
          />
         <StatusBar Grid.Row="9" Grid.Column="0">
             <StatusBarItem>
-                <TextBlock Text="Próba szöveg"/>
+                <TextBlock Text="{Binding StatusBarText}"/>
             </StatusBarItem>
         </StatusBar>
     </Grid>
