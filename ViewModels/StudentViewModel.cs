@@ -19,7 +19,10 @@ namespace MenuProject.ViewModels
         private ObservableCollection<Student> _students = new();
 
         [ObservableProperty]
-        private Student _selectedStudent;        
+        private Student _selectedStudent;
+
+        [ObservableProperty]
+        private string _statusBarText = string.Empty;
         
         private string _selectedEducationLevel = string.Empty;
         public string SelectedEducationLevel
